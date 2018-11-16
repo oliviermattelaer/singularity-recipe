@@ -9,7 +9,7 @@ MirrorURL: http://ftp.us.debian.org/debian/
 %post
     echo "Hello from inside the container"
     apt-get update
-    apt-get -y install emacs bzr python2.7 gcc gfortran g++ make python-pip wget gnuplot
+    apt-get -y install emacs bzr python2.7 gcc gfortran g++ make python-pip wget gnuplot bc
     pip install numpy scipy
     # PY8 specific
     apt-get -y install rsync
@@ -27,6 +27,9 @@ MirrorURL: http://ftp.us.debian.org/debian/
     tar -xzpvf 281
     mv ~mg5core1/mg5amcnlo/2.6.5  mg5amcnlo
     ./mg5amcnlo/bin/mg5 cmd
+
+    # for PY8
+    chmod 777 /usr/mg5amcnlo/HEPTools/pythia8/bin/pythia8-config
 
     # Set up graphic renderer for MA5:
     cd /usr/mg5amcnlo/HEPTools/madanalysis5/madanalysis5/madanalysis/layout/
