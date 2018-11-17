@@ -1,5 +1,5 @@
 Bootstrap: shub
-From: oliviermattelaer/singularity-recipe:MG5_alone
+From: oliviermattelaer/singularity-recipe:mg5_alone
 
 %runscript
     mg5amcnlo/bin/mg5_aMC
