@@ -1,5 +1,5 @@
 BootStrap: shub
-MirrorURL: oliviermattelaer/singularity-recipe:mg5_ma5_py8
+From: oliviermattelaer/singularity-recipe:mg5_ma5_py8
 
 
 %post
