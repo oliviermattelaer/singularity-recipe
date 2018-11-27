@@ -3,7 +3,7 @@ OSVersion: stable
 MirrorURL: http://ftp.us.debian.org/debian/
 
 %runscript
-    mg5amcnlo/bin/mg5_aMC
+    /usr/mg5amcnlo/bin/mg5_aMC
 
 
 %post
