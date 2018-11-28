@@ -4,6 +4,7 @@ From: oliviermattelaer/singularity-recipe:mg5_alone
 %runscript
     /usr/mg5amcnlo/bin/mg5_aMC
 
+
 %post
     # PY8 specific
     apt-get -y install rsync
