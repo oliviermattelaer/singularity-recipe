@@ -2,8 +2,7 @@ Bootstrap: shub
 From: oliviermattelaer/singularity-recipe:mg5_alone
 
 %runscript
-    mg5amcnlo/bin/mg5_aMC
-
+    /usr/mg5amcnlo/bin/mg5_aMC
 
 %post
     # PY8 specific
